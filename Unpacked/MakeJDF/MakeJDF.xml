@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+    <ElementFields>
+        <Name Type="string" Editor="hide">MakeCreoJDF</Name>
+        <DisplayName Type="string" Editor="hide">Make Creo JDF</DisplayName>
+        <Version Type="number" Editor="hide">1</Version>
+        <Keywords Type="string" Editor="hide"/>
+        <Tooltip Type="string" Editor="hide"/>
+        <IncomingConnections RequireAtLeastOne="Yes" Editor="hide">Yes</IncomingConnections>
+        <OutgoingConnections RequireAtLeastOne="Yes" DetailedInfo="" Editor="hide">Unlimited</OutgoingConnections>
+        <ConnectionType Editor="hide">Move</ConnectionType>
+        <ScriptFunctions Editor="hide">jobArrived</ScriptFunctions>
+        <ExecutionMode Editor="hide">Serialized</ExecutionMode>
+        <NumberOfSlots Editor="hide">Default</NumberOfSlots>
+        <ExecutionGroup Editor="hide"/>
+        <PerformanceTuning Editor="hide">No</PerformanceTuning>
+        <IdleAfterJob Editor="hide">0</IdleAfterJob>
+        <PositionInElementPane Editor="hide">Configurators</PositionInElementPane>
+        <SubcategoryInElementPane Editor="hide">&lt;ValueDescription Type="stringlist">&lt;Value>Custom&lt;/Value>&lt;/ValueDescription></SubcategoryInElementPane>
+        <DispositionInElementPane Type="number" Editor="hide"/>
+        <Description Type="string" Editor="hide"/>
+        <Compatibility Type="string" Editor="hide"/>
+        <SupportInfo Type="string" Editor="hide"/>
+        <AppDiscovery Type="string" Editor="hide"/>
+        <Connections Type="string" Editor="hide"/>
+        <SwitchModule Type="string" Editor="hide"/>
+        <ObsoleteProperties Type="string" Editor="hide"/>
+        <ObsoleteConnectionProperties Type="string" Editor="hide"/>
+        <CreoServerIp Validation="Standard" LocalizedTagName="Creo Server IP" Subtype="inline" Default="192.168.1.227" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar">192.168.1.227</CreoServerIp>
+        <LocalFilePath Validation="Standard" LocalizedTagName="Local File Path" Subtype="sltextwithvar" Default="Import\[Job.Name]" Tooltip="Local path with the filename of the print file as it can be found on the server" DetailedInfo="" Type="string" Editor="inline;sltextwithvar">Import\[Job.Name]</LocalFilePath>
+        <JobName Validation="Standard" LocalizedTagName="Job Name" Subtype="sltextwithvar" Default="[Job.NameProper]" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar">[Job.NameProper]</JobName>
+        <Quantity Validation="Standard" LocalizedTagName="Quantity" Subtype="inline" Default="" Tooltip="" DetailedInfo="" Type="number" Editor="inline;sltextwithvar"></Quantity>
+        <Debug Validation="Standard" LocalizedTagName="Debug" Subtype="inline" Default="No" Tooltip="" DetailedInfo="" Type="bool" Editor="inline">No</Debug>
+    </ElementFields>
+    <ConnectionFields/>
+</Object>

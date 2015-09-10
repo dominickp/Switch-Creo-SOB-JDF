@@ -1,0 +1,12 @@
+<Manifest>
+    <ScripterInstanceName>MakeCreoJDF</ScripterInstanceName>
+    <ScriptPackageFormatVersion>1.0</ScriptPackageFormatVersion>
+    <ScripterPassword></ScripterPassword>
+    <ScriptDeclarationFile>MakeJDF.xml</ScriptDeclarationFile>
+    <ScriptProgramFiles>
+        <ScriptProgramFile ScriptLanguage="JavaScript">MakeJDF.js</ScriptProgramFile>
+    </ScriptProgramFiles>
+    <ScriptIconFile>creojdf.png</ScriptIconFile>
+    <AppleBinary></AppleBinary>
+    <LocalizationItems/>
+</Manifest>
