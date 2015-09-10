@@ -8,9 +8,10 @@ function jobArrived( s : Switch, job : Job )
 	var localFilePath = s.getPropertyValue( 'LocalFilePath' );
 	var quantity = s.getPropertyValue( 'Quantity' );
 	var jobName = s.getPropertyValue( 'JobName' );
+	var debug = s.getPropertyValue( 'Debug' );
 	
 	
-	var filePath = '\\\\' + filePath  + '\\' + localFilePath;
+	var filePath = '\\\\' + creoServerIp + '\\' + localFilePath;
 	var logLevel = 2;	
 	
 	if( debug == 'Yes' ) s.log( logLevel, 'Asset must be accessable here: '+ filePath )

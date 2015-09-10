@@ -29,7 +29,7 @@
         <CreoServerIp Validation="Standard" LocalizedTagName="Creo Server IP" Subtype="inline" Default="192.168.1.227" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar">192.168.1.227</CreoServerIp>
         <LocalFilePath Validation="Standard" LocalizedTagName="Local File Path" Subtype="sltextwithvar" Default="Import\[Job.Name]" Tooltip="Local path with the filename of the print file as it can be found on the server" DetailedInfo="" Type="string" Editor="inline;sltextwithvar">Import\[Job.Name]</LocalFilePath>
         <JobName Validation="Standard" LocalizedTagName="Job Name" Subtype="sltextwithvar" Default="[Job.NameProper]" Tooltip="" DetailedInfo="" Type="string" Editor="inline;sltextwithvar">[Job.NameProper]</JobName>
-        <Quantity Validation="Standard" LocalizedTagName="Quantity" Subtype="inline" Default="" Tooltip="" DetailedInfo="" Type="number" Editor="inline;sltextwithvar"></Quantity>
+        <Quantity Validation="Standard" LocalizedTagName="Quantity" Subtype="inline" Default="1" Tooltip="" DetailedInfo="" Type="number" Editor="inline;sltextwithvar">1</Quantity>
         <Debug Validation="Standard" LocalizedTagName="Debug" Subtype="inline" Default="No" Tooltip="" DetailedInfo="" Type="bool" Editor="inline">No</Debug>
     </ElementFields>
     <ConnectionFields/>
